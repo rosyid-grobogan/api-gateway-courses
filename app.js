@@ -6,6 +6,10 @@ const logger = require('morgan');
 
 const indexRouter = require('./routes/index');
 const usersRouter = require('./routes/users');
+const coursesRouter = require('./routes/courses');
+const mediaRouter = require('./routes/media');
+const ordersRouter = require('./routes/orders');
+const paymentsRouterv = require('./routes/payments');
 
 const app = express();
 
