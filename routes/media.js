@@ -8,4 +8,7 @@ router.get('/', mediaHandler.getAll);
 /* POST */
 router.post('/', mediaHandler.create);
 
+/* DELETE */
+router.delete('/:id', mediaHandler.destroy);
+
 module.exports = router;
